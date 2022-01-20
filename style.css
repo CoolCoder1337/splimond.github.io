@@ -1,0 +1,319 @@
+body {
+    background: none !important;
+}
+
+#containerblanc {
+    font-size: 20px;
+    padding: 25px;
+    color: white;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    overflow: scroll;
+    transform: translate(-50%, -50%);
+    background: linear-gradient(to left, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.9));
+    height: 100%;
+    width: 100%;
+    border: 2px solid aliceblue;
+    border-radius: 7px;
+}
+
+#containerblanc2 {
+    font-size: 20px;
+    padding: 25px;
+    color: white;
+    position: fixed;
+    top: 0%;
+    left: 50%;
+    overflow: scroll;
+    transform: translate(-50%, -50%);
+    background: linear-gradient(to left, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.9));
+    height: 150%;
+    width: 100%;
+    border: 2px solid aliceblue;
+    border-radius: 7px;
+}
+
+#beachstagecontainer {
+    font-size: 20px;
+    padding: 25px;
+    color: white;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    overflow: scroll;
+    transform: translate(-50%, -50%);
+    background: linear-gradient(to top, rgba(255, 224, 0, 0.4), rgba(255, 224, 0, 0.1));
+	box-shadow: 0 0 65px 0 rgba(255, 255, 255, 0.75);
+    height: 50%;
+    width: 70%;
+    border: 2px solid aliceblue;
+    border-radius: 7px;
+	border-color: #9C640C;
+}
+
+#testw {
+	background: linear-gradient(-106deg, rgba(255, 224, 0, 0.1), rgba(255, 224, 0, 0.1), rgba(255, 224, 0, 0.1));
+	box-shadow: 0 0 65px 0 rgba(255, 224, 0, 0.75);
+	padding: 12px;
+	height: 12%;
+	width: 16%;
+	position: absolute;
+    right: 5%;
+	top: 180%;
+	border: 0px solid rgb(0, 0, 0);
+    border-radius: 0px;
+	border-color: #EFFF54;
+	font-family: bahnschrift;
+	font-size: 200%;
+	text-align: center;
+	vertical-align: middle;
+	-webkit-touch-callout: none;
+    -webkit-user-select: none;
+     -khtml-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+}
+
+#playpausebutton {
+	background: linear-gradient(-106deg, rgba(255, 224, 0, 0.1), rgba(255, 224, 0, 0.1), rgba(255, 224, 0, 0.1));
+	box-shadow: 0 0 65px 0 rgba(255, 224, 0, 0.75);
+	padding: 12px;
+	height: 12%;
+	width: 16%;
+	position: absolute;
+    right: 41%;
+	top: 31%;
+	border: 0px solid rgb(0, 0, 0);
+    border-radius: 0px;
+	border-color: #EFFF54;
+	font-family: bahnschrift;
+	font-size: 200%;
+	text-align: center;
+	vertical-align: middle;
+	-webkit-touch-callout: none;
+    -webkit-user-select: none;
+     -khtml-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+}
+
+#tenbackbutton {
+	background: linear-gradient(-106deg, rgba(255, 224, 0, 0.1), rgba(255, 224, 0, 0.1), rgba(255, 224, 0, 0.1));
+	box-shadow: 0 0 65px 0 rgba(255, 224, 0, 0.75);
+	padding: 12px;
+	height: 12%;
+	width: 16%;
+	position: absolute;
+    right: 79%;
+	top: 31%;
+	border: 0px solid rgb(0, 0, 0);
+    border-radius: 0px;
+	border-color: #EFFF54;
+	font-family: bahnschrift;
+	font-size: 200%;
+	text-align: center;
+	vertical-align: middle;
+	-webkit-touch-callout: none;
+    -webkit-user-select: none;
+     -khtml-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+}
+
+#tenforwardbutton {
+	background: linear-gradient(-106deg, rgba(255, 224, 0, 0.1), rgba(255, 224, 0, 0.1), rgba(255, 224, 0, 0.1));
+	box-shadow: 0 0 65px 0 rgba(255, 224, 0, 0.75);
+	padding: 12px;
+	height: 12%;
+	width: 16%;
+	position: absolute;
+    right: 3%;
+	top: 31%;
+	border: 2px solid rgb(0, 0, 0);
+    border: 0px solid rgb(0, 0, 0);
+    border-radius: 0px;
+	font-family: bahnschrift;
+	font-size: 200%;
+	text-align: center;
+	vertical-align: middle;
+	-webkit-touch-callout: none;
+    -webkit-user-select: none;
+     -khtml-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+}
+
+
+#stopbutton {
+	background: linear-gradient(-106deg, rgba(255, 224, 0, 0.1), rgba(255, 224, 0, 0.1), rgba(255, 224, 0, 0.1));
+	box-shadow: 0 0 65px 0 rgba(255, 224, 0, 0.75);
+	padding: 12px;
+	height: 12%;
+	width: 16%;
+	position: absolute;
+    right: 22%;
+	top: 31%;
+	border: 0px solid rgb(0, 0, 0);
+    border-radius: 0px;
+	border-color: #EFFF54;
+	font-family: bahnschrift;
+	font-size: 200%;
+	text-align: center;
+	vertical-align: middle;
+	-webkit-touch-callout: none;
+    -webkit-user-select: none;
+     -khtml-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+}
+
+#beachstagebuttonleave {
+    background: linear-gradient(to top, rgba(255, 0, 0, 0.4), rgba(255, 0, 0, 0.1));
+	padding: 12px;
+	height: 8%;
+	width: 19%;
+	position: absolute;
+    right: 4%;
+	top: 79%;
+	border: 2px solid rgb(0, 0, 0);
+    border-radius: 8px;
+	border-color: #FF0000;
+	font-family: sans-serif;
+	font-size: 200%;
+	text-align: center;
+	-webkit-touch-callout: none;
+    -webkit-user-select: none;
+     -khtml-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+     -khtml-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+}
+
+#beachstagebuttonleave:hover {
+	box-shadow: 0 0 65px 0 rgba(255, 255, 255, 0.65);
+}
+
+#cosmeticbutton {
+    background: linear-gradient(-106deg, rgba(255, 224, 0, 0.1), rgba(255, 224, 0, 0.1), rgba(255, 224, 0, 0.1));
+	box-shadow: 0 0 65px 0 rgba(255, 224, 0, 0.75);
+	padding: 12px;
+	height: 12%;
+	width: 92%;
+	position: absolute;
+    right: 3%;
+	top: 31%;
+	border: 2px solid rgb(0, 0, 0);
+    border-radius: 8px;
+	border-color: #EFFF54;
+	font-family: bahnschrift;
+	font-size: 200%;
+	text-align: center;
+	vertical-align: middle;
+	-webkit-touch-callout: none;
+    -webkit-user-select: none;
+     -khtml-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+}
+
+#reloadbutton {
+    background: linear-gradient(to top, rgba(255, 0, 0, 0.4), rgba(255, 0, 0, 0.1));
+	padding: 12px;
+	height: 8%;
+	width: 19%;
+	position: absolute;
+    right: 75%;
+	top: 79%;
+	border: 2px solid rgb(0, 0, 0);
+    border-radius: 8px;
+	border-color: #FF0000;
+	font-family: sans-serif;
+	font-size: 200%;
+	text-align: center;
+	-webkit-touch-callout: none;
+    -webkit-user-select: none;
+     -khtml-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+     -khtml-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+}
+
+#staticfont1 {
+	padding: 12px;
+	height: 8%;
+	width: 80%;
+	position: absolute;
+    left: 2%;
+	top: 55%;
+	font-family: sans-serif;
+	font-size: 120%;
+	text-align: left;
+	-webkit-touch-callout: none;
+    -webkit-user-select: none;
+     -khtml-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+     -khtml-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+}
+
+#nonstaticfont1 {
+	padding: 12px;
+	height: 8%;
+	width: 60%;
+	position: absolute;
+    left: 13%;
+	top: 55%;
+	font-family: sans-serif;
+	font-size: 120%;
+	text-align: left;
+	-webkit-touch-callout: none;
+    -webkit-user-select: none;
+     -khtml-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+     -khtml-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+}
+
+#reloadbutton:hover {
+	box-shadow: 0 0 65px 0 rgba(255, 255, 255, 0.65);
+}
+
+#inputurl {
+	width: 60%;
+	height: 10%;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 8px;
+	border-color: #9C640C;	
+	font-size: 120%;
+}
